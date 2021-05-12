@@ -35,6 +35,8 @@ This project was put together using create-react-app (CRA). You will not need to
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: `git push origin <firstName-lastName>`.
 
+initial commit comment
+
 ### Task 2: MVP
 
 **Planning**
@@ -88,9 +90,9 @@ Now is the time to build out your other components. Compose your UI, and then pa
 if (!props.photoOfTheDay) return <h3>Loading...</h3>;
 
 // Display your component as normal after the data has been fetched
-return (
-  {/* your normal JSX here */}
-);
+return {
+  /* your normal JSX here */
+};
 ```
 
 - Read through the API docs carefully. You will read through many technical docs as a developer, so start now to try and understand them.
@@ -108,6 +110,6 @@ Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge Branch into `main` (student's Repository).
 
-----
+---
 
 ## Part II - [Advanced Styling Techniques](DAY_TWO_README.md)
